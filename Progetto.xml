@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="https://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> <!--Descrizione bibliografica file elettronico -->
+            <titleStmt>
+                <title>Vincenzo Bellini a destinatario sconosciuto, in Parigi, 2 Febbraio 1834. Minuta di Lettera.</title>
+                <!--formato titolo: mittente a destinatario, in luogo, data di scrittura della lettera -->
+                <author ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+                <respStmt>
+                    <resp>Trascrizione di </resp>
+                    <name ref="#GS">Graziella Seminara</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>
+                    Digital edition
+                <date when="2021-06"> Giugno 2021 </date>
+                </edition>
+                    <respStmt>
+                        <resp> Conversione TEI P5 di </resp>
+                        <name ref="#GG">Giovanni Graniero</name>
+                    </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher> Fondazione Bellini </publisher>
+            </publicationStmt>
+
+            <sourceDesc> <!-- Descrizione delle fonti-->
+                    <bibl source="TEI-ListBibl.xml#Seminara2017" resp="#GS" ana="263">
+                                <citedRange unit="page" from="323" to="323">323-324</citedRange>
+                    </bibl>
+                    <msDesc> <!-- manoscritto fisico, descrizione-->
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>Catania</settlement>
+                            <repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+                            <!-- riferimento al catalogo delle sigle dei musei in cui è definito I-CATm -->
+                            <idno type="inventory">LL1.13.I</idno>						<!-- segnatura della singola lettera -->
+                            <altIdentifier><idno type="collocation">in esposizione Casa Natale, sala B, vetrina 4, ripiano 1, III,a</idno>
+                            </altIdentifier>						<!-- collocazione della lettera al museo -->
+                        </msIdentifier>
+                        <msContents>
+                            <msItem n="1">
+                                <author xml:lang="it" ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+                                <title type="uniform" xml:lang="it">
+                                    <persName ref="TEI-ListPerson.xml#VB" role="composer">Vincenzo Bellini</persName> a	
+                                    <persName> Sconosciuto</persName>, in		
+                                    <placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>,						
+                                    <date when="1834-02-02" cert="high" resp="#GS">2 febbraio 1834</date>
+                                </title>
+                                <textLang mainLang="it">Italiano di inizio Ottocento.</textLang>
+                                <note>Destinatario della lettera sconosciuto. </note>
+                            </msItem>
+                            <msItem n="2">
+                                <author xml:lang="it" ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+                                <title type="uniform" xml:lang="it">
+                                    <persName ref="TEI-ListPerson.xml#VB" role="composer">Vincenzo Bellini</persName> a	
+                                    <persName> Sconosciuto</persName>, in		
+                                    <placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>,						
+                                    <date when="1834-02-02" cert="high" resp="#GS">2 febbraio 1834</date>
+                                </title>
+                                <textLang mainLang="it">Italiano di inizio Ottocento.</textLang>
+                                <note> Destinatario della lettera sconosciuto. </note>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <material>Carta sottile.</material>
+                                        <stamp>
+                                        Nel folio retro, nell'angolo superiore sinistro c'è un timbro postale poco visibile con la scritta "WEYNEN"
+                                        </stamp>
+                                        <!-- descrizione fisica della lettera -->
+                                        <p n="1">Lettera in buonissime condizioni fisiche, composta da un solo folio, 
+                                        piegato a metà orizzontalmente, con testo della lettera nel fronte e data e formula di apertura 
+                                        nella parte superiore del retro. Carta sottile senza filigrana, colore beige, 
+                                        inchiostro nero. La lettera presenta alcune piccole macchie di inchiostro 
+                                        nella parte superiore della lettera, e un piccolo buco, entrambi osservabili sia nel fronte che nel retro. </p>
+                                        <p n="2">Il folio presenta fronte e retro. Il foglio è piegato a metà orizzontalmente con data e formula di apertura
+                                        nel retro e il corpo della lettera nel fronte.</p>
+                                    </support>
+                                    <extent>
+                                        <measure type="folio">1</measure>
+                                        <dimensions unit="mm">
+                                            <height>47</height>
+                                            <width>135</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation>	
+                                        Il folio presenta una piegatura orizzontale che lo divide a metà orizzontalmente e una piegatura verticale più leggera decentrata a sinistra. Così il folio stesso funge anche da busta con la data e la formula di apertura nella parte superiore del retro. 
+                                    </foliation>
+                                    <condition>
+                                        <!-- descrizione delle condizioni fisiche di conservazione della lettera -->
+                                        <p>Lettera in buonissime condizioni fisiche.</p>
+                                    </condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc hands="3">
+                                <handNote><p>Scrittura a mano libera abbastanza leggibile. Il folio retro, nella parte superiore, presenta un'annotazione di seconda mano, anche il folio fronte nella parte sinistra presenta un'annotazione di seconda mano. 
+                                </p></handNote>
+                                <handNote xml:id="h1">								<!-- indica la seconda mano del catalogatore -->
+                                    <p>Una annotazione è probabilmente dovuta a un catalogatore, si trova nel folio retro e presenta una f ed il numero 25 scritti con un pastello blu.
+                                    </p>
+                                </handNote>
+                                <handNote xml:id="h2">
+                                    <p>Anche l'altra annotazione è probabilmente dovuta a un catalogatore, si trova nel folio fronte e presenta una scritta di due parole illeggibile.
+                                    </p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                        <additional>
+                            <adminInfo>
+                                <note>		<!-- descrizione del significato della segnatura della lettera -->
+                                    All'interno del carteggio belliniano (LL), la segnatura LL1.13.I identifica la tredicesima missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini.
+                                </note>
+                            </adminInfo>
+                        </additional>
+                    </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+			<correspDesc n="1">
+				<correspAction type="sent">
+					<persName ref="TEI-ListPerson.xml#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="TEI-ListPlace.xml#Paris" type="postmark">Parigi</placeName>
+					<date when="1834-02-02" cert="high" resp="#GS" type="writing">2 Febbraio 1834</date>					
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="unknown" role="contessa">unknown</persName>
+					<placeName>unknown</placeName>
+					<date>unknown</date>
+				</correspAction>
+				<correspContext>
+					<p>non è presente un contesto di riferimento</p>
+				</correspContext>
+			</correspDesc>
+
+			<textClass>
+				<keywords scheme="http://thes.bncf.firenze.sbn.it">					<!-- soggettario della Biblioteca Nazionale di Firenze -->
+					<term resp="#GS"> minuta 	<!-- un termine tra:  lettera, biglietto, minuta -->
+					</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it">italiano di inizio Ottocento</language>
+			</langUsage>
+		</profileDesc>
+    </teiHeader>
+
+    <facsimile>
+		<surface n="1" xml:id="LL1.13.I_folio_1f">			<!-- FRONTE  -->
+			<graphic url="LL1.13.I_0002.jpg" width='1632px' height='603px'/>
+			<zone ulx="261" uly="104" lrx="1601" lry="218" rendition="Line" xml:id="LL1.13.I_line_1f1"/>
+			<zone ulx="234" uly="222" lrx="1608" lry="296" rendition="Line" xml:id="LL1.13.I_line_1f2"/>
+			<zone ulx="217" uly="299" lrx="1569" lry="393" rendition="Line" xml:id="LL1.13.I_line_1f3"/>
+			<zone ulx="233" uly="397" lrx="1078" lry="448" rendition="Line" xml:id="LL1.13.I_line_1f4"/>
+			<zone ulx="358" uly="442" lrx="1601" lry="523" rendition="Line" xml:id="LL1.13.I_line_1f5"/>
+
+            <zone ulx="45" uly="143" lrx="205" lry="342" rendition="HotSpot" xml:id="LL1.13.I_hotspot_1f1"/> 			<!-- seconda mano -->
+		</surface>
+
+
+		<surface n="2" xml:id="LL1.13.I_folio_1r">			<!-- RETRO -->
+			<graphic url="LL1.13.I_0001.jpg" width='1632px' height='603px'/>
+			<zone ulx="829" uly="147" lrx="1592" lry="284" rendition="Line" xml:id="LL1.13.I_line_1r1"/>
+			<zone ulx="305" uly="321" lrx="1350" lry="479" rendition="Line" xml:id="LL1.13.I_line_1r2"/>
+
+    	    <zone ulx="45" uly="71" lrx="254" lry="232" rendition="HotSpot" xml:id="LL1.13.I_hotspot_1r1"/> 			<!-- timbro -->
+			<zone ulx="196" uly="268" lrx="630" lry="495" rendition="HotSpot" xml:id="LL1.13.I_hotspot_1r2"/> 			<!-- seconda mano -->
+		</surface>
+
+	</facsimile>
+
+    <text type="letter" xml:id="LL.1.13.I" subtype="manuscript" n="LL1.13.I">
+		<front> 	<!-- front del testo composto -->
+			<pb n="1" xml:id="LL1.13.I_fol_1r" facs="#LL1.13.I_folio_1r"/> 	
+			<div type="sent">
+                <ab xml:id="LL1.13.I_hs_1r1" facs="#LL1.13.I_hotspot_1r1">
+					<stamp type="postmark">			<!-- timbro -->
+						<mentioned>WEYNEN</mentioned>
+					</stamp>
+				</ab>
+            </div>
+        </front>
+        <group>
+            <text n="parte1">
+                <body xml:lang="it">
+                    <div type="letter-opener">
+                    <opener>
+                        <s type="sentence" n="s01">
+                            <lb xml:id="LL1.13.I_lb_1r1" n="1" facs="#LL1.13.I_line_1r1"/>
+                            <hi rend="align(right)">
+                            <dateline>
+                                <placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>
+                                <date when="1834-02-02">2: Febbrajo 34:</date>
+                            </dateline>
+                            </hi>
+                        </s>
+                        <div type="paratext1">
+                            <ab type="paratext" subtype="addition" hand="#h2" xml:id="LL1.13.I_hs_1r2" facs="#LL1.13.I_hotspot_1r2">	
+                                <add hand="#h2"><fw type="catalogNum">f25</fw></add>
+                            </ab>
+                        </div>
+                        <salute n="ab1">
+                            <s type="sentence" n="s02"> 
+                                <lb xml:id="LL1.13.I_lb_1r2" n="2" facs="#LL1.13.I_line_1r2"/>
+                                Mia
+                                <choice>
+                                    <abbr>Pregsma </abbr>
+                                    <expan>Preg<ex>iati</ex>s<ex>si</ex>ma </expan>
+                                </choice> 
+                                <choice>
+                                    <abbr>Sig:<hi rend="sup">ra</hi></abbr>
+                                    <expan>Signora </expan>
+                                </choice>
+                                <rs type="person"><roleName>Contessa</roleName></rs>
+                            </s>
+                        </salute>
+                    </opener>
+                    </div>
+                </body>
+            </text>
+
+            <text n="parte2">
+                <body xml:lang="it">
+                    <pb n="1" xml:id="LL1.13.I_fol_1f" facs="#LL1.13.I_folio_1f"/>
+                    <div type="paratext2">
+                    <ab type="paratext" subtype="addition" hand="#h3" xml:id="LL1.13.I_hs_1fv2" facs="#LL1.13.I_hotspot_1f1">	
+                        <add hand="#h3" place="left" extent="2 words"><gap reason="illegible"></gap></add>
+                    </ab>
+                    </div>
+                    <div type="letter-body" n="o_01">
+                        <s type="sentence" n="s_01">
+                        <lb xml:id="LL1.13.I_lb_1f1" n="1" facs="#LL1.13.I_line_1f1"/>
+                        Io d'ora dinnanzi mi dichiaro a 
+                        <persPronouns value="she">Lei </persPronouns> <w>rico
+                        <lb xml:id="LL1.13.I_lb_1f2" n="2" facs="#LL1.13.I_line_1f2" break="no" rend="double stroke"/>
+                        noscente</w> per tutto quello che
+                        <persPronouns value="she">Ella </persPronouns>
+                        potrà
+                        <lb xml:id="LL1.13.I_lb_1f3" n="3" facs="#LL1.13.I_line_1f3"/>
+                        <subst><del>giovarmi </del><add place="supralinear">concorrere</add></subst>, perchè io colga gloria sul
+                        <lb xml:id="LL1.13.I_lb_1f4" n="4" facs="#LL1.13.I_line_1f4"/>
+                        suolo della mia <rs type="country">Patria</rs>.
+                        </s>
+                        <salute>
+                        <s type="sentence" n="s_02">
+                        <lb xml:id="LL1.13.I_lb_1f5" n="5" facs="#LL1.13.I_line_1f5"/>
+                        Gradisca le proteste della <damage agent="hole">mia</damage> sincera stima
+                        </s>
+                        </salute>
+                    </div>
+                </body>
+            </text>
+        </group>
+        <back>
+            <!-- back del testo composto-->
+            <div type="notes">
+				<div type="ann_notes">					<!-- indicare con resp se le note sono dell'edizione critica o di altra responsabilità-->
+					<note xml:id="LL1_13.I_note1" resp="#GG">
+                        <p>
+                            <persName ref="TEI-ListPerson.xml#VB" role="composer">Bellini</persName> Scrive questa lettera a una <persName ref="unknown" role="contessa">Contessa</persName> sconosciuta al fine di ringraziarla per il suo aiuto necessario ad avere fama in Italia.
+                        </p>
+                    </note>
+                </div>
+            </div>
+            <div type="bibliography">
+					<listBibl xml:id="LL1_13.I_bibliography">
+						<head>Bibliografia della lettera LL1.13.I</head>
+						<bibl xml:id="LL1_13.I_Amore">
+							 	<ref target="TEI-ListBibl.xml#Amore1894">
+									 <bibl>
+										<author xml:id="AA">
+                                            <forename>Antonino</forename>
+                        	                <surname>Amore</surname>
+                                        </author>
+                                        <title level="m">Vincenzo Bellini. Vita. Studi e ricerche</title>
+                                        <pubPlace>Catania</pubPlace>
+                                        <publisher>Giannotta</publisher>
+										<date when="1894">1894</date>
+										<citedRange unit="page" from="325" to="325">325</citedRange>
+									</bibl>
+								</ref>
+						</bibl>
+                        <bibl xml:id="LL1_13.I_Cambi">
+								<ref target="TEI-ListBibl.xml#Cambi1943">
+									<bibl>
+										<author xml:id="LC"> 
+                        	                <forename>Luisa</forename>
+                        	                <surname>Cambi</surname> 
+                                        </author>
+                                        <title level="m">Bellini. Epistolario</title>
+                                        <pubPlace>Milano</pubPlace>
+                                        <publisher>Mondadori</publisher>
+										<date when="1943">1943</date>
+										<citedRange unit="page" from="382" to="382">382</citedRange>
+									</bibl>
+								</ref>
+						</bibl>
+						<bibl xml:id="LL1_13.I_Neri">
+								<ref target="TEI-ListBibl.xml#Neri2005">
+									<bibl>
+										<author xml:id="CN">
+                        	                <forename>Carmelo</forename>
+                        	                <surname>Neri</surname>
+                                        </author>
+                                        <title level="m">Vincenzo Bellini. Nuovo Epistolario. 1819-1835</title>
+                                        <pubPlace>Catania</pubPlace>
+                                        <publisher>Agorà</publisher>
+										<date when="2005">2005</date>
+										<citedRange unit="page" from="272" to="273">272-273</citedRange>
+									</bibl>
+								</ref>
+						</bibl>
+					</listBibl>
+				</div>
+        </back>
+    </text>
+</TEI>
